@@ -20,14 +20,4 @@ ENV DB_HOST false
 ENV DB_WP_PREFIX false
 ENV WP_DEBUG false
 
-# Tokens 
-ENV AUTH_KEY false
-ENV SECURE_AUTH_KEY false
-ENV LOGGED_IN_KEY false
-ENV NONCE_KEY false
-ENV AUTH_SALT false
-ENV SECURE_AUTH_SALT false
-ENV LOGGED_IN_SALT false
-ENV NONCE_SALT false
-
 RUN a2enmod cgi

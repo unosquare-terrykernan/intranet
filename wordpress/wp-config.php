@@ -46,9 +46,9 @@ define('DB_COLLATE', '');
  *
  * @since 2.6.0
  */
-define('AUTH_KEY',         (isset($_ENV['AUTH_KEY']))?$_ENV['AUTH_KEY']:'put your unique phrase here');
-define('SECURE_AUTH_KEY',  (isset($_ENV['SECURE_AUTH_KEY']))?$_ENV['SECURE_AUTH_KEY']:'put your unique phrase here');
-define('LOGGED_IN_KEY',    (isset($_ENV['LOGGED_IN_KEY']))?$_ENV['LOGGED_IN_KEY']:'put your unique phrase here');
+define('AUTH_KEY',         '[VDov6_W/mgYAPQ.MABYWzee?Y}C1klu%X_BMgoXT:Yj=BdQ[r*q/%JMT7oGFDz_';
+define('SECURE_AUTH_KEY',  "6}^L8(?4|QR}O5W+Mwh$8te=$3|21u&mW0guLkI{i0fSq^KvtCEu G{SX`/[#3+!";
+define('LOGGED_IN_KEY',    '[[gI3]qLFpxHiC63qSqIPB$j8/d-1[Hh1pcsgRPOVt_t9WtIBe*R?f2I]5j <VWV';
 define('NONCE_KEY',        (isset($_ENV['NONCE_KEY']))?$_ENV['NONCE_KEY']:'put your unique phrase here');
 define('AUTH_SALT',        (isset($_ENV['AUTH_SALT']))?$_ENV['AUTH_SALT']:'put your unique phrase here');
 define('SECURE_AUTH_SALT', (isset($_ENV['SECURE_AUTH_SALT']))?$_ENV['SECURE_AUTH_SALT']:'put your unique phrase here');
