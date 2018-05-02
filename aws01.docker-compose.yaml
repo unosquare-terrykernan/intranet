@@ -35,4 +35,3 @@ volumes:
 # networks:
 #  frontend:
 #  backend
-# docker run --rm -ti mariadb:5.5 mysqldump -h unosquarewordpress.ce9q87nktug9.eu-west-1.rds.amazonaws.com -u w8w9gAn6SYp0 -pePyzpUgN8YRS unoWordpressxn84
