@@ -112,10 +112,10 @@
 
             $expires = time() + 300; // expires 5 minutes from now
 
-            $message = json_encode([
+            $message = json_encode( array(
                 'nonce' => base64_encode( $nonce_secret ),
                 'expires' => $expires,
-            ]);
+            ) );
 
             return base64_encode( hash_hmac( 'sha256', $message, $nonce_salt, true ) . $message );
 
