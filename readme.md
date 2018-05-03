@@ -30,8 +30,16 @@ $ & "C:\Program Files\Docker\Docker\Resources\bin\docker-machine.exe" env [MACHI
 ### Creating the containers using (namek|make)
 - Note : view Makefile
 ```bash
-$ nmake build_wp
-$ nmake build_mariadb
+$ nmake/make build_wp
+$ nmake/make build_mariadb
+```
+- without namke/make
+```bash
+$ docker build -f docker/wordpress.Dockerfile -t unosquare/intranet_wp:0.0.0 .
+$ docker tag unosquare/intranet_wp:0.0.0 unosquare/intranet_wp:latest
+
+$ docker build -f docker/mariadb.Dockerfile -t unosquare/intranet_db:0.0.0 .
+$ docker tag unosquare/intranet_db:0.0.0 unosquare/intranet_db:latest
 ```
 - The containers are now created and available in your local docker repo
 ```bash
