@@ -3,3 +3,7 @@
 Theme Name: Extranet
 Template: standard
 */
+
+.sf-menu ul {
+    z-index: 999!important;
+}
